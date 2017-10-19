@@ -1,0 +1,10 @@
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/bin/Debug/netcoreapp2.0/LinkedListInOrder.deps.json
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/bin/Debug/netcoreapp2.0/LinkedListInOrder.runtimeconfig.json
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/bin/Debug/netcoreapp2.0/LinkedListInOrder.runtimeconfig.dev.json
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/bin/Debug/netcoreapp2.0/LinkedListInOrder.dll
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/bin/Debug/netcoreapp2.0/LinkedListInOrder.pdb
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/obj/Debug/netcoreapp2.0/LinkedListInOrder.csproj.CoreCompileInputs.cache
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/obj/Debug/netcoreapp2.0/LinkedListInOrder.AssemblyInfoInputs.cache
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/obj/Debug/netcoreapp2.0/LinkedListInOrder.AssemblyInfo.cs
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/obj/Debug/netcoreapp2.0/LinkedListInOrder.dll
+/home/xernea/Desktop/Data Structures/Data-Structures---LinkedList/LinkedListInOrder/obj/Debug/netcoreapp2.0/LinkedListInOrder.pdb
