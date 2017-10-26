@@ -18,7 +18,32 @@ namespace LinkedListInOrder
             myLinkedList.addOrder(1);
             myLinkedList.addOrder(200);
             myLinkedList.print();
-            
+            myLinkedList.remove(1);
+            myLinkedList.print();
+            myLinkedList.remove(5);
+            myLinkedList.print();
+            myLinkedList.remove(0);
+            myLinkedList.print();
+            myLinkedList.remove(17);
+            myLinkedList.print();
+            System.Console.WriteLine("Count " + myLinkedList.Count);
+            myLinkedList.remove(15);
+            myLinkedList.print();
+            myLinkedList.remove(5);
+            myLinkedList.print();
+            myLinkedList.remove(200);
+            myLinkedList.print();
+            System.Console.WriteLine("Count " + myLinkedList.Count);
+
+            myLinkedList.remove(1);
+            myLinkedList.print();
+            myLinkedList.remove(51);
+            myLinkedList.print();
+
+            System.Console.WriteLine("Count " + myLinkedList.Count);
+
+
+
 
         }
     }
