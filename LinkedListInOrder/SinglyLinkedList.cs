@@ -9,11 +9,33 @@ namespace LinkedListInOrder
     public class SinglyLinkedList<T> where T : IComparable
     {
         Node<T> head;
+        int count;
         public Node<T> getHead()
         {
             return head;
         }
+        public int Count
+        {
+            get
+            {
+                Node<T> iterator = new Node<T>();
+                iterator = head;
+                this.count = 0;
+                while (iterator != null)
+                {
+                    this.count++;
+                    iterator = iterator.next;
 
+
+                }
+                return this.count;
+            }
+            set
+            {
+                this.count = value;
+            }
+
+        }
         public void print()
         {
             Node<T> current = head;
@@ -42,8 +64,8 @@ namespace LinkedListInOrder
                 current = current.next;
             current.next = newNode;
         }
-      
-     
+
+
 
         public T removeHead()
         {
@@ -99,7 +121,36 @@ namespace LinkedListInOrder
                 }
             }
         }
-		public void clearList()
-		{}
+        public void clearList()
+        {
+            head = null;
+        }
+
+        public void remove(T value)
+        {
+            Node<T> iterator = new Node<T>();
+            iterator = head;
+            if (value.CompareTo(head.value) == 0)
+                head = head.next;
+            else
+            {
+                while (iterator.next != null)
+                {
+                    if (iterator.next.value.CompareTo(value) == 0)
+                    {
+                        if (iterator.next.next == null)
+                        {
+                            iterator.next = null;
+                        }
+                        else
+                        {
+                            iterator.next = iterator.next.next;
+                        }
+                    }
+                    if (iterator.next != null)
+                        iterator = iterator.next;
+                }
+            }
+        }
     }
 }
