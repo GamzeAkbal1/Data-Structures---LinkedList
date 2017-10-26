@@ -36,7 +36,6 @@ namespace LinkedListInOrder
             }
 
         }
-
         public void print()
         {
             Node<T> current = head;
@@ -150,9 +149,7 @@ namespace LinkedListInOrder
                     }
                     if (iterator.next != null)
                         iterator = iterator.next;
-
                 }
-
             }
         }
     }
